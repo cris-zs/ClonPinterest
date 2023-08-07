@@ -1,0 +1,136 @@
+* {
+    /*box-sizing: border-box;*/
+    margin: 0;
+    padding: 0;
+  }
+.top-menu{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+.logo{
+    width: 25px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+    
+}
+.logo:hover{
+    background: #eeeeee;
+}
+.Inicio{
+    color: #ffffff;
+    background: #000000;
+    font-weight: bold;
+    font-family: Arial;
+    border-radius: 40px;
+    padding:12px 15px;
+    cursor:pointer;
+    margin:0px 5px;
+    font-size: 15px;
+}
+.Explorar{
+    color: #000000;
+    background: #ffffff;
+    font-weight: bold;
+    font-family: Arial;
+    border-radius: 40px;
+    padding:12px 15px;
+    cursor:pointer;
+    margin:0px 5px;
+    font-size: 15px;
+}
+.Crear{
+    color: #000000;
+    background: #ffffff;
+    font-weight: bold;
+    font-family: Arial;
+    border-radius: 40px;
+    padding:12px 15px;
+    cursor:pointer;
+    margin:0px 5px;
+    font-size: 15px;
+}
+.Busqueda{
+    width:100%;
+    margin:0px 5px;
+    padding:12px 35px;
+    border-radius:40px;
+    outline:none;
+    position:relative;
+    background-color:#efefef;
+    font-size:15px;
+    border: 4px solid transparent;
+    background-image:url("https://cdn4.iconfinder.com/data/icons/music-ui-solid-24px/24/search-3-256.png");
+    background-size:21px;
+    background-repeat:no-repeat;
+    background-position:center left;
+    background-position:10px;
+    color:gray;
+}
+.Busqueda:hover{
+    background-color: #cccccc;
+}
+.Iconos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.Campana{
+    width:25px;
+    border-radius:50%;
+    cursor:pointer;
+    padding:10px;
+}
+.Campana:hover{
+    background-color: #eeeeee;
+}
+.Mensajes{
+    width:25px;
+    border-radius:50%;
+    cursor:pointer;
+    padding:10px;
+}
+.Mensajes:hover{
+    background-color: #eeeeee;
+}
+.Usuario{
+    width:30px;
+    border-radius:50%;
+    cursor:pointer;
+    padding:10px;
+}
+.Usuario:hover{
+    background-color: #eeeeee;
+}
+.Expandible{
+    width:14px;
+    padding:5px;
+    border-radius: 50%;
+}
+.Expandible:hover{
+    background-color: #eeeeee;
+}
+.Publicaciones{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:baseline;
+    margin:10px 35px;
+    flex-wrap:wrap;
+    /*columns: 5 240px;*/
+}
+.Imagen{
+    border-radius:20px;
+    margin:10px;
+    overflow:hidden;
+    position:relative;
+}
+.Publicacion{
+    border-radius:20px;
+    cursor:zoom-in;
+    background-color: #cccccc;
+}
+
